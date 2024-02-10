@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .matrix-block { text-align: center;
+  .matrix-block {
+    text-align: center;
   }
 }
 .main-block {
@@ -35,13 +36,13 @@
   display: flex;
 }
 .list {
-margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-point {
-  list-style:none;
+  list-style: none;
 }
-.input,.btn{
+.input, .btn {
   outline:none;
 }
 .btn {
@@ -97,7 +98,6 @@ margin:0;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,14 +135,14 @@ margin:0;
 
 /* Edit Task */
 .list .list-point .input[type=text] {
-  display:none
+  display: none
 }
 
 .list .list-point.edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .list-point.edit-mode .label {
-  display:none;
+  display: none;
 }
