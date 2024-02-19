@@ -4,7 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.matrix-block {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,12 +13,12 @@
 .matrix-img {
   width: 100%;
 }
-.matrix-block .more-inf {
+.matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .matrix-block {
+  .matrix {
     text-align: center;
   }
 }
@@ -27,7 +27,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.add-item-block__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -90,7 +90,7 @@
   display: block;
   margin: 0 0 20px;
 }
-.input#new-task {
+.input.new-task {
   width: 318px;
 }
 
@@ -129,7 +129,7 @@
 }
 
 /* Completed */
-.list#completed-tasks .label {
+.list.completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
